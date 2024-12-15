@@ -1,5 +1,5 @@
 #SAMIRAH ALAM, Project EULER, Problem 4 in Python
-#A palindromic number reads the same both ways. The largest palindrome made from the product of two 3-digit numbers is 9009 = 91 x 99
+#A palindromic number reads the same both ways. The largest palindrome made from the product of two -digit numbers is .Find the largest palindrome made from the product of two -digit numbers.
 # -------------------------------------------------------------------
 #Import Libraries
 # -------------------------------------------------------------------
