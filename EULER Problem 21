@@ -1,0 +1,13 @@
+sum = 0 #initialising the container for the sum of all the amicable pairs > 10000 
+def d(n): #d(n) is the function which calculates sum of all divisors for n
+    fsum = 0
+    for i in range (1,n):   #range not stopping at n+1 as n is not a proper divisor of n
+        if n % i == 0:       #checks if it a proper divisor
+            fsum += i
+    return (fsum)
+for a in range (1,10000):
+    b =d(a)
+    if d(b)==a and a!=b:  #if the function of b equals a, where we define b as the function of a , [a,b] is an amicable pair
+        sum += a + b #adds to our final sum as these are amicable pairs, simpler than adding d(b) and d(a) as a=d(b) and b=d(a)
+        
+print ("The sum of all the pairs of amicable numbers under 10000 is ",((sum)))
